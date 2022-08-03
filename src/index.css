@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #333;
+}
+
+.nav-bar{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+    border-bottom: 1px solid #afafaf;
+}
+.nav-bar h1{
+    color: #af3bd2;
+}
+.nav-bar .links {
+  margin-left: auto;
+}
+.nav-bar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+  color: rgb(103, 103, 103);
+}
+.nav-bar a:hover {
+  color: rgb(26, 230, 142);
+}
+.content {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+}
+.content h2{
+  color: rgb(26, 230, 142);
+}
+.blog-preview {
+    padding: 10px 16px;
+    margin: 20px 0;
+    border-bottom: 1px solid #fafafa;
+}
+.blog-preview:hover {
+    box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+.blog-preview h3 {
+    font-size: 20px;
+    color: #af3bd2;
+    margin-bottom: 8px;
+}
+.blog-preview p{
+    color: rgb(123, 123, 123);
+}
+
+.add-blog{
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.add-blog h2{
+  color: rgb(26, 230, 142);
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.add-blog input, .add-blog textarea{
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+textarea{
+  height: 300px;
+}
+.add-blog button{
+  background-color: #af3bd2;
+  border-radius: 5px;
+  border: none;
+  padding: 15px;
+  color: #fafafa;
+}
+.add-blog button:hover{
+cursor: pointer;
+background-color: rgb(26, 230, 142);
+}
+.wrong-page{
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+.wrong-page h1{
+  margin: 5px;
+  color: rgb(130, 130, 130);
+}
+.wrong-page p{
+  margin: 5px;
+  color: rgb(123, 123, 123);
+}
+.wrong-page button{
+  border: none;
+  background-color: rgb(26, 230, 142);
+  border-radius: 5px;
+  padding: 15px;
+  color: #fafafa;
+  margin-top: 50px;
+
+}
+.wrong-page button:hover{
+  background-color: rgb(150, 230, 196);
+  cursor: pointer;
+  color: #af3bd2;
+}
